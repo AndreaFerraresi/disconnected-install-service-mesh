@@ -6,4 +6,4 @@ metadata:
 spec:
   displayName: My Mirrored Operator Catalog
   sourceType: grpc
-  image: ${REGISTRY}/openshift-marketplace/mirrored-operator-catalog
+  image: MY_REGISTRY/openshift-marketplace/mirrored-operator-catalog

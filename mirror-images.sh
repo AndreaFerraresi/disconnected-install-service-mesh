@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 DATE=$(date +%Y-%m-%d-%H:%M:%S)
 
@@ -35,4 +35,5 @@ for image in ${images[@]}; do
 	src=$image
 	dst=${REGISTRY}/${image#*/}
 	skopeo copy --format=v2s2 docker://$src docker://$dst
+	#skopeo copy --format=v2s2 docker://$src dir:./container-images
 done

@@ -12,7 +12,7 @@ spec:
     storage:
       files:
       - contents:
-          source: data:text/plain;charset=utf-8;base64,${YOUR_FILE_CONTENT_IN_BASE64}
+          source: data:text/plain;charset=utf-8;base64,YOUR_FILE_CONTENT_IN_BASE64
           verification: {}
         filesystem: root
         mode: 420
