@@ -1,0 +1,8 @@
+
+  "stackOrchestrator" : "swarm",
+  "auths" : {
+      YOUR_PULL_SECRET_HERE
+  },
+  "experimental" : "disabled",
+  "credsStore" : "desktop"
+}
